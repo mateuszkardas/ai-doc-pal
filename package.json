@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/ai-doc-pal.git"
+    "url": "https://github.com/mateuszkardas/ai-doc-pal.git"
   },
   "engines": {
     "node": ">=18.0.0"
