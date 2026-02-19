@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "postbuild": "chmod +x dist/cli.js",
     "dev": "tsx src/cli.ts",
     "start": "node dist/cli.js",
     "test": "vitest",
@@ -33,7 +34,7 @@
     "cli",
     "rag"
   ],
-  "author": "",
+  "author": "Mateusz Kardaś",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -51,12 +52,12 @@
     "glob": "^13.0.0",
     "ora": "^9.0.0",
     "sqlite-vec": "^0.1.7-alpha.2",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0.16",
     "zod": "^4.3.5"
   },
   "devDependencies": {
-    "@types/node": "^25.0.3"
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
   }
 }

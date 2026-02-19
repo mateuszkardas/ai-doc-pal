@@ -1,0 +1,12 @@
+# Source maps and TypeScript declarations - not needed for CLI users
+dist/**/*.map
+dist/**/*.d.ts
+dist/**/*.d.ts.map
+
+# Source files
+src/
+
+# Dev/test files
+vitest.config.ts
+tsconfig.json
+*.test.ts
